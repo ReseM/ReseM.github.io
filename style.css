@@ -9,7 +9,8 @@ canvas {
 
 }
 .underline {
- text-align: center;
+padding-top: 20%;
+padding-left: 10%;
   position: absolute;
    border-bottom: 2px solid currentColor;
    border-bottom-color: darkorange;
