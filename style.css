@@ -17,6 +17,7 @@ canvas {
 
 .video {
 width: 100%;
+top: 0;
 height: 100%;
- margin-top: -300px; 
+margin-top: -11%;
 }
