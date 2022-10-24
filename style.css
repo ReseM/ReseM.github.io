@@ -21,7 +21,7 @@ padding-top: -20%;
 position: absolute;
 width: 100%;
 height: 100%;
-opacity: 0.2;
+opacity: 0.3;
 }
 
 
@@ -29,8 +29,8 @@ opacity: 0.2;
 	font-size: 67px;
 	padding-top: 50%;
 	color: white;
-	right: 90%;
-	left: 10%;
+	right: 20%;
+	left: 80%;
 	position: absolute;
   font-family: DoFuturistic;
 
@@ -38,10 +38,10 @@ opacity: 0.2;
 
 .underline1 {
 	font-size: 67px;
-	padding-top: 70%;
+	padding-top: 50%;
 	color: white;
-	right: 10%;
-	left: 90%;
+	right: 80%;
+	left: 20%;
 	position: absolute;
   font-family: DoFuturistic;
 
