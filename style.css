@@ -7,7 +7,7 @@ font-weight: normal;
 } 
 
 canvas {
-	 opacity: 0.2;
+	 opacity: 0.4;
    background: #fc0; /* Цвет фона */
 }
 
@@ -19,9 +19,9 @@ h1{
 .video {
 padding-top: -20%;
 position: absolute;
-width: 200%;
-height: 200%;
-opacity: 0.4;
+width: 100%;
+height: 100%;
+opacity: 0.3;
 }
 
 
