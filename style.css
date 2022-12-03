@@ -87,7 +87,7 @@ opacity: 0.5;
 	width: 5px;
 	height: 10px;
 
-	padding-top: 45px;
+	padding-top: 40px;
 	padding-left: 10px;
 	color: white;
 	
@@ -99,6 +99,7 @@ opacity: 0.5;
 .underline2 {
 	font-size: 15px;
 	border-color: none;
+	border: none;
 	background: none;
 	padding-top: 20px;
 	padding-left: 10px;
@@ -114,9 +115,10 @@ opacity: 0.5;
 .underline3 {
 	font-size: 15px;
 	border-color: none;
+	border: none;
 	background: none;
 	padding-top: -3%;
-	padding-left: 1%;
+	padding-left: 10px;
 	
 	color: white;
 	z-index: 1;
