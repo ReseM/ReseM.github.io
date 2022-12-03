@@ -16,38 +16,112 @@ h1{
 	font-family: DoFuturistic;
 }
 
+.btok {
+	position: absolute;
+	z-index: 1;
+	text-decoration: none; 
+    border-radius: 8px; 
+ 	height: 15px
+	width 10px
+	
+ 	padding-right: center;
+ 	padding: 1rem 1.5rem;
+ 	background: rgba(40,40,40, 0.4);
+}
+
+.play {
+	position: absolute;
+	z-index: 1;
+	text-decoration: none; 
+    border-radius: 8px; 
+ 	height: 15px
+	width 10px
+	
+
+ 	padding: 1rem 1.5rem;
+ 	background: rgba(40,40,40, 0.4);
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
 .video {
 padding-top: -10%;
+
 position: fixed;
 position: fixed;
 width: 100%;
 height: 100%;
-opacity: 0.4;
+opacity: 0.5;
 }
+
 
 
 .underline {
 	font-size: 100px;
-	padding-top: 50%;
+	padding-top: 10%;
 	margin-left: -15%;
 	padding-left: center;
 	color: white;
 	right: 40%;
 	left: 40%;
 	position: absolute;
-  font-family: DoFuturistic;
+ 	font-family: DoFuturistic;
 
 }
 
 .underline1 {
-	font-size: 67px;
-	padding-top: 60%;
+	font-size: 15px;
+	border-color: none;
+	border: none;
+	background: none;
+	width: 5px;
+	height: 10px;
+
+	padding-top: 45px;
+	padding-left: 10px;
 	color: white;
-	right: 40%;
-	left: 20%;
+	
+	z-index: 1;
 	position: absolute;
   font-family: DoFuturistic;
+}
 
+.underline2 {
+	font-size: 15px;
+	border-color: none;
+	background: none;
+	padding-top: 20px;
+	padding-left: 10px;
+	color: white;
+		width: 5px;
+	height: 10px;
+
+	z-index: 1;
+	position: absolute;
+    font-family: DoFuturistic;
+}
+
+.underline3 {
+	font-size: 15px;
+	border-color: none;
+	background: none;
+	padding-top: -3%;
+	padding-left: 1%;
+	
+	color: white;
+	z-index: 1;
+	position: absolute;
+   font-family: DoFuturistic;
 }
 
 .myDiv{

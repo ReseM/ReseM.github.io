@@ -2,25 +2,52 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Cpp.exe</title>
+  <title>Onlyinc</title>
   <link rel="stylesheet" href="style.css">
-
+    <script src="script.js"></script>
 </head>
 <body bgcolor="black">
 
+<style>
+   a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: white;
+    
+   } 
 
+   .hidden{
+                display:none;
+            }
+            #playBtn {
+                border: solid 1px #333;
+                padding: 5px;
+                cursor: pointer;
+            }
+  </style>
 
+    <button 
+    style=" onclick="window.location.href = 'https://t.me/onlyinc';" 
+    class="underline3"><a href="https://t.me/onlyinc">Telegram</a></button>
 
-<video class="video" autoplay="true" loop="true" controls preload="auto">
-  <source src="video/bn14.mp4" type="video/mp4">
-  <source src="movie.ogg" type="video/ogg">
+    <button 
+    style="onclick="window.location.href = 'https://t.me/onlyinc';" 
+    class="underline2"><a href="https://t.me/onlyinc">Play</a></button>
+
+    <button id="btn" type="button" 
+    onclick="play();" value="Play"
+    class="underline1">	Next </button>
+
+<video id="vds" class="video" autoplay="true" loop="true" controls preload="auto" >
+  <source src="video/1.mp4" type="video/mp4">
+    <source src="video/nnnn.mp4" type="video/mp4">
 </video>
 
 
-<h1 style="letter-spacing: 30px" class="underline">Vermiy</h1>
-
-
-
+<h1
+ style="letter-spacing: 30px; 
+ font-size: 8vw;
+ " 
+ class="underline">Onlyinc</h1>
 
   <div id="nc-main" class="nc-main bg-cover bg-cc">
 			<div class="full-wh">
