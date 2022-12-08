@@ -30,6 +30,7 @@ let videos = [ // Список ссылок на видео
   "video/28.mp4",
   "video/29.mp4",
   "video/30.mp4",
+  "video/31.mp4",
 ];
 
 var video = "bn2.mp4";
@@ -49,7 +50,7 @@ window.onload = function() {
 
 
 function play() {
-	 let counter = Math.floor(Math.random() * (30 - 0)) + 0;
+	 let counter = Math.floor(Math.random() * (31 - 0)) + 0;
 		vds.src = videos[counter];
     video.play();
 }
