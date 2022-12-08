@@ -17,6 +17,19 @@ let videos = [ // Список ссылок на видео
   "video/15.mp4",
   "video/16.mp4",
   "video/17.mp4",
+  "video/18.mp4",
+  "video/19.mp4",
+  "video/20.mp4",
+  "video/21.mp4",
+  "video/22.mp4",
+  "video/23.mp4",
+  "video/24.mp4",
+  "video/25.mp4",
+  "video/26.mp4",
+  "video/27.mp4",
+  "video/28.mp4",
+  "video/29.mp4",
+  "video/30.mp4",
 ];
 
 var video = "bn2.mp4";
@@ -36,7 +49,7 @@ window.onload = function() {
 
 
 function play() {
-	 let counter = Math.floor(Math.random() * (17 - 0)) + 0;
+	 let counter = Math.floor(Math.random() * (30 - 0)) + 0;
 		vds.src = videos[counter];
     video.play();
 }
